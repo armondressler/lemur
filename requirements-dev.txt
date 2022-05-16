@@ -34,7 +34,7 @@ importlib-metadata==4.10.0
     # via
     #   keyring
     #   twine
-invoke==1.6.0
+invoke==1.7.1
     # via -r requirements-dev.in
 jeepney==0.7.1
     # via
