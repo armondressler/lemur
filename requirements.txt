@@ -185,7 +185,7 @@ pem==21.2.0
     # via -r requirements.in
 prompt-toolkit==3.0.24
     # via click-repl
-psycopg2==2.9.3
+psycopg2==2.9.5
     # via -r requirements.in
 pyasn1==0.4.8
     # via
@@ -305,16 +305,16 @@ wrapt==1.13.3
     # via deprecated
 xmltodict==0.12.0
     # via -r requirements.in
-zope.component==5.0.1
+zope-component==5.0.1
     # via certbot
-zope.event==4.5.0
-    # via zope.component
-zope.hookable==5.1.0
-    # via zope.component
-zope.interface==5.4.0
+zope-event==4.5.0
+    # via zope-component
+zope-hookable==5.1.0
+    # via zope-component
+zope-interface==5.4.0
     # via
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
