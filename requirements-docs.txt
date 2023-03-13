@@ -223,7 +223,7 @@ gitpython==3.1.25
     #   bandit
 gunicorn==20.1.0
     # via -r requirements-docs.in
-hvac==0.11.2
+hvac==1.1.0
     # via -r requirements-docs.in
 idna==3.3
     # via
@@ -384,6 +384,8 @@ pyflakes==2.4.0
     # via -r requirements-tests.txt
 pygments==2.11.2
     # via sphinx
+pyhcl==0.4.4
+    # via hvac
 pyjks==20.0.0
     # via -r requirements-docs.in
 pyjwt==2.3.0
@@ -506,7 +508,6 @@ six==1.16.0
     #   fakeredis
     #   flask-cors
     #   flask-restful
-    #   hvac
     #   jsonschema
     #   junit-xml
     #   pyopenssl
@@ -622,23 +623,23 @@ xmltodict==0.12.0
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   moto
-zope.component==5.0.1
+zope-component==5.0.1
     # via
     #   -r requirements-tests.txt
     #   certbot
-zope.event==4.5.0
+zope-event==4.5.0
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.hookable==5.1.0
+    #   zope-component
+zope-hookable==5.1.0
     # via
     #   -r requirements-tests.txt
-    #   zope.component
-zope.interface==5.4.0
+    #   zope-component
+zope-interface==5.4.0
     # via
     #   -r requirements-tests.txt
     #   certbot
-    #   zope.component
+    #   zope-component
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
